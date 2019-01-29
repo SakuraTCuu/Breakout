@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\textures">
+      <UniqueIdentifier>{b6a6984a-d836-430f-9387-8cee08af89e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shaders">
+      <UniqueIdentifier>{f67bdcc4-da86-4dc1-b381-acfa5c9ea5fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\levels">
+      <UniqueIdentifier>{16c071fc-fc34-4d10-88f8-fd286c2268ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite_renderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game_object.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game_level.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ball_object.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="resource_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sakura.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HP\Desktop\GLFW\glad\src\glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite_renderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game_object.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game_level.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ball_object.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\awesomeface.png">
+      <Filter>源文件\textures</Filter>
+    </Image>
+    <Image Include="textures\container.jpg">
+      <Filter>源文件\textures</Filter>
+    </Image>
+    <Image Include="textures\container2.png">
+      <Filter>源文件\textures</Filter>
+    </Image>
+    <Image Include="textures\block.png">
+      <Filter>源文件\textures</Filter>
+    </Image>
+    <Image Include="textures\block_solid.png">
+      <Filter>源文件\textures</Filter>
+    </Image>
+    <Image Include="textures\background.jpg">
+      <Filter>源文件\textures</Filter>
+    </Image>
+    <Image Include="textures\paddle.png">
+      <Filter>源文件\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\sprite.frag">
+      <Filter>源文件\shaders</Filter>
+    </None>
+    <None Include="shaders\sprite.vs">
+      <Filter>源文件\shaders</Filter>
+    </None>
+    <None Include="level\four.lvl">
+      <Filter>源文件\levels</Filter>
+    </None>
+    <None Include="level\one.lvl">
+      <Filter>源文件\levels</Filter>
+    </None>
+    <None Include="level\three.lvl">
+      <Filter>源文件\levels</Filter>
+    </None>
+    <None Include="level\two.lvl">
+      <Filter>源文件\levels</Filter>
+    </None>
+  </ItemGroup>
+</Project>
